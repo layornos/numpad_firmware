@@ -1,0 +1,2306 @@
+Archive member included because of file (symbol)
+
+/usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o (exit)
+/usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+                              .build/obj_numpad_rev4_basic/common/action.o (__tablejump2__)
+/usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+                              .build/obj_numpad_rev4_basic/quantum/matrix.o (__do_copy_data)
+/usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+                              .build/obj_numpad_rev4_basic/quantum/quantum.o (__do_clear_bss)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+                              .build/obj_numpad_rev4_basic/common/eeconfig.o (__eerd_byte_m32u4)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+                              .build/obj_numpad_rev4_basic/common/eeconfig.o (__eerd_word_m32u4)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+                              .build/obj_numpad_rev4_basic/common/eeconfig.o (__eeupd_byte_m32u4)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+                              .build/obj_numpad_rev4_basic/common/eeconfig.o (__eeupd_word_m32u4)
+/usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+                              /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o) (__eerd_blraw_m32u4)
+
+Allocating common symbols
+Common symbol       size              file
+
+USB_IsInitialized   0x1               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+keymap_config       0x2               .build/obj_numpad_rev4_basic/common/magic.o
+USB_DeviceState     0x1               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+USB_Device_ConfigurationNumber
+                    0x1               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+USB_Device_CurrentlySelfPowered
+                    0x1               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+USB_ControlRequest  0x8               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+USB_Device_RemoteWakeupEnabled
+                    0x1               .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+
+Discarded input sections
+
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.send_string
+                0x0000000000000000       0x54 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.update_tri_layer
+                0x0000000000000000       0x86 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.tap_random_base64
+                0x0000000000000000       0x8e .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.backlight_init_ports
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.backlight_set
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.led_init_ports
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.startup_user
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text.shutdown_user
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .progmem.data.ascii_to_qwerty_keycode_lut
+                0x0000000000000000       0x80 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .progmem.data.ascii_to_qwerty_shift_lut
+                0x0000000000000000       0x80 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .text.action_get_macro
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .progmem.data.fn_actions
+                0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .text.leader_end
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_init_kb
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_init_quantum
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_scan_quantum
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_rows
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_cols
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_is_modified
+                0x0000000000000000        0xc .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_is_on
+                0x0000000000000000       0x20 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_key_count
+                0x0000000000000000       0x28 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/host.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/host.o
+ .text.host_get_driver
+                0x0000000000000000        0xa .build/obj_numpad_rev4_basic/common/host.o
+ .text.host_mouse_send
+                0x0000000000000000       0x16 .build/obj_numpad_rev4_basic/common/host.o
+ .text.host_last_system_report
+                0x0000000000000000        0xa .build/obj_numpad_rev4_basic/common/host.o
+ .text.host_last_consumer_report
+                0x0000000000000000        0xa .build/obj_numpad_rev4_basic/common/host.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .text.keyboard_set_leds
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action.o
+ .text.process_record_quantum
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/common/action.o
+ .text.process_record_nocache
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/common/action.o
+ .text.debug_action
+                0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/common/action.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_oneshot_locked_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.set_oneshot_locked_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.clear_oneshot_locked_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.reset_oneshot_layer
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.set_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_weak_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.set_weak_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_macro_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.set_macro_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_oneshot_mods
+                0x0000000000000000        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.has_anymod
+                0x0000000000000000        0x8 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text.get_first_key
+                0x0000000000000000       0x5e .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.oneshot_locked_mods
+                0x0000000000000000        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/print.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/print.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/debug.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/debug.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/util.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitpop   0x0000000000000000       0x14 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitpop16
+                0x0000000000000000       0x18 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitpop32
+                0x0000000000000000       0x30 .build/obj_numpad_rev4_basic/common/util.o
+ .text.biton    0x0000000000000000       0x24 .build/obj_numpad_rev4_basic/common/util.o
+ .text.biton16  0x0000000000000000       0x48 .build/obj_numpad_rev4_basic/common/util.o
+ .text.biton32  0x0000000000000000       0xa6 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitrev   0x0000000000000000       0x24 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitrev16
+                0x0000000000000000       0x34 .build/obj_numpad_rev4_basic/common/util.o
+ .text.bitrev32
+                0x0000000000000000       0x44 .build/obj_numpad_rev4_basic/common/util.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .text.eeconfig_enable
+                0x0000000000000000        0xc .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .text.eeconfig_disable
+                0x0000000000000000        0xc .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .text.eeconfig_update_debug
+                0x0000000000000000        0xa .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .text.eeconfig_update_default_layer
+                0x0000000000000000        0xa .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .text.suspend_idle
+                0x0000000000000000       0x1a .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .text.timer_clear
+                0x0000000000000000       0x18 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .text.timer_read32
+                0x0000000000000000       0x18 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .text.timer_elapsed32
+                0x0000000000000000       0x58 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .text          0x0000000000000000      0x15c .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+ .bss           0x0000000000000000        0x2 .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/magic.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/common/magic.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/lufa.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/lufa.o
+ .text.sendchar
+                0x0000000000000000        0x4 .build/obj_numpad_rev4_basic/lufa.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/descriptor.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/descriptor.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_ProcessHIDReport
+                0x0000000000000000      0x70c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_GetHIDReportItemInfo
+                0x0000000000000000       0xbc .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_SetHIDReportItemInfo
+                0x0000000000000000       0xec .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text.USB_GetHIDReportSize
+                0x0000000000000000       0x60 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Discard_Stream
+                0x0000000000000000       0x7e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Null_Stream
+                0x0000000000000000       0x7e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Stream_BE
+                0x0000000000000000       0xa0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_LE
+                0x0000000000000000       0x92 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Stream_BE
+                0x0000000000000000       0xa0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_LE
+                0x0000000000000000       0x96 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_PStream_BE
+                0x0000000000000000       0xa2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_LE
+                0x0000000000000000       0x98 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_EStream_BE
+                0x0000000000000000       0xa4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_LE
+                0x0000000000000000       0x98 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_EStream_BE
+                0x0000000000000000       0xa4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_Stream_BE
+                0x0000000000000000       0xce .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_LE
+                0x0000000000000000       0x80 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_Stream_BE
+                0x0000000000000000       0x84 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_PStream_BE
+                0x0000000000000000       0xce .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_LE
+                0x0000000000000000       0xee .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Write_Control_EStream_BE
+                0x0000000000000000       0xf8 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_LE
+                0x0000000000000000       0x98 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text.Endpoint_Read_Control_EStream_BE
+                0x0000000000000000       0x96 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text.Endpoint_ConfigureEndpointTable
+                0x0000000000000000       0x7c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text.Endpoint_ClearEndpoints
+                0x0000000000000000       0x28 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptor
+                0x0000000000000000       0x38 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfType
+                0x0000000000000000       0x48 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeBefore
+                0x0000000000000000       0x58 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorOfTypeAfter
+                0x0000000000000000       0x3e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text.USB_GetNextDescriptorComp
+                0x0000000000000000       0x66 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .text          0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .bss           0x0000000000000000        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x0000000000000000 0x0000000000020000 xr
+data             0x0000000000800060 0x000000000000ffa0 rw !x
+eeprom           0x0000000000810000 0x0000000000010000 rw !x
+fuse             0x0000000000820000 0x0000000000000400 rw !x
+lock             0x0000000000830000 0x0000000000000400 rw !x
+signature        0x0000000000840000 0x0000000000000400 rw !x
+user_signatures  0x0000000000850000 0x0000000000000400 rw !x
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+LOAD .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+LOAD .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+LOAD .build/obj_numpad_rev4_basic/quantum/quantum.o
+LOAD .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+LOAD .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+LOAD .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+LOAD .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+LOAD .build/obj_numpad_rev4_basic/quantum/matrix.o
+LOAD .build/obj_numpad_rev4_basic/common/host.o
+LOAD .build/obj_numpad_rev4_basic/common/keyboard.o
+LOAD .build/obj_numpad_rev4_basic/common/action.o
+LOAD .build/obj_numpad_rev4_basic/common/action_tapping.o
+LOAD .build/obj_numpad_rev4_basic/common/action_macro.o
+LOAD .build/obj_numpad_rev4_basic/common/action_layer.o
+LOAD .build/obj_numpad_rev4_basic/common/action_util.o
+LOAD .build/obj_numpad_rev4_basic/common/print.o
+LOAD .build/obj_numpad_rev4_basic/common/debug.o
+LOAD .build/obj_numpad_rev4_basic/common/util.o
+LOAD .build/obj_numpad_rev4_basic/common/eeconfig.o
+LOAD .build/obj_numpad_rev4_basic/common/avr/suspend.o
+LOAD .build/obj_numpad_rev4_basic/common/avr/timer.o
+LOAD .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+LOAD .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+LOAD .build/obj_numpad_rev4_basic/common/magic.o
+LOAD .build/obj_numpad_rev4_basic/lufa.o
+LOAD .build/obj_numpad_rev4_basic/descriptor.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+LOAD .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libm.a
+START GROUP
+LOAD /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libm.a
+LOAD /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a
+END GROUP
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x0000000000000000     0x32e8
+ *(.vectors)
+ .vectors       0x0000000000000000       0xac /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+                0x0000000000000000                __vectors
+                0x0000000000000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.process_action
+                0x00000000000000ac       0x4a .build/obj_numpad_rev4_basic/common/action.o
+ .progmem.gcc_sw_table.USB_Device_ProcessControlRequest
+                0x00000000000000f6       0x14 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ *(.progmem*)
+ .progmem.data.fn_actions
+                0x000000000000010a        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                0x000000000000010a                fn_actions
+ .progmem.data.keymaps
+                0x000000000000010a       0x28 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                0x000000000000010a                keymaps
+ .progmem.data.ProductString
+                0x0000000000000132       0x2a .build/obj_numpad_rev4_basic/descriptor.o
+                0x0000000000000132                ProductString
+ .progmem.data.ManufacturerString
+                0x000000000000015c       0x2e .build/obj_numpad_rev4_basic/descriptor.o
+                0x000000000000015c                ManufacturerString
+ .progmem.data.LanguageString
+                0x000000000000018a        0x4 .build/obj_numpad_rev4_basic/descriptor.o
+                0x000000000000018a                LanguageString
+ .progmem.data.ConfigurationDescriptor
+                0x000000000000018e       0x3b .build/obj_numpad_rev4_basic/descriptor.o
+                0x000000000000018e                ConfigurationDescriptor
+ .progmem.data.DeviceDescriptor
+                0x00000000000001c9       0x12 .build/obj_numpad_rev4_basic/descriptor.o
+                0x00000000000001c9                DeviceDescriptor
+ .progmem.data.NKROReport
+                0x00000000000001db       0x39 .build/obj_numpad_rev4_basic/descriptor.o
+                0x00000000000001db                NKROReport
+ .progmem.data.KeyboardReport
+                0x0000000000000214       0x40 .build/obj_numpad_rev4_basic/descriptor.o
+                0x0000000000000214                KeyboardReport
+                0x0000000000000254                . = ALIGN (0x2)
+                0x0000000000000254                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000000000000254        0x0 linker stubs
+ *(.trampolines*)
+                0x0000000000000254                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000000000000254                __ctors_start = .
+ *(.ctors)
+                0x0000000000000254                __ctors_end = .
+                0x0000000000000254                __dtors_start = .
+ *(.dtors)
+                0x0000000000000254                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000000000000254        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+                0x0000000000000254                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000000000000254        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+ *(.init2)
+ *(.init3)
+ .init3         0x0000000000000260       0x4e .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+                0x0000000000000260                bootloader_jump_after_watchdog_reset
+ *(.init3)
+ *(.init4)
+ .init4         0x00000000000002ae       0x16 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+                0x00000000000002ae                __do_copy_data
+ .init4         0x00000000000002c4       0x10 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+                0x00000000000002c4                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000000000002d4        0x8 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+ *(.init9)
+ *(.text)
+ .text          0x00000000000002dc        0x4 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+                0x00000000000002dc                __vector_38
+                0x00000000000002dc                __vector_22
+                0x00000000000002dc                __vector_28
+                0x00000000000002dc                __vector_1
+                0x00000000000002dc                __vector_32
+                0x00000000000002dc                __vector_34
+                0x00000000000002dc                __vector_24
+                0x00000000000002dc                __bad_interrupt
+                0x00000000000002dc                __vector_6
+                0x00000000000002dc                __vector_31
+                0x00000000000002dc                __vector_35
+                0x00000000000002dc                __vector_39
+                0x00000000000002dc                __vector_3
+                0x00000000000002dc                __vector_23
+                0x00000000000002dc                __vector_30
+                0x00000000000002dc                __vector_25
+                0x00000000000002dc                __vector_13
+                0x00000000000002dc                __vector_17
+                0x00000000000002dc                __vector_19
+                0x00000000000002dc                __vector_7
+                0x00000000000002dc                __vector_41
+                0x00000000000002dc                __vector_27
+                0x00000000000002dc                __vector_5
+                0x00000000000002dc                __vector_33
+                0x00000000000002dc                __vector_37
+                0x00000000000002dc                __vector_4
+                0x00000000000002dc                __vector_9
+                0x00000000000002dc                __vector_2
+                0x00000000000002dc                __vector_15
+                0x00000000000002dc                __vector_36
+                0x00000000000002dc                __vector_29
+                0x00000000000002dc                __vector_40
+                0x00000000000002dc                __vector_8
+                0x00000000000002dc                __vector_26
+                0x00000000000002dc                __vector_14
+                0x00000000000002dc                __vector_16
+                0x00000000000002dc                __vector_18
+                0x00000000000002dc                __vector_20
+                0x00000000000002dc                __vector_42
+                0x00000000000002e0                . = ALIGN (0x2)
+ *(.text.*)
+ .text.matrix_init_kb
+                0x00000000000002e0        0x4 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+                0x00000000000002e0                matrix_init_kb
+ .text.action_get_macro
+                0x00000000000002e4       0x36 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                0x00000000000002e4                action_get_macro
+ .text.process_action_kb
+                0x000000000000031a        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x000000000000031a                process_action_kb
+ .text.process_record_user
+                0x000000000000031e        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x000000000000031e                process_record_user
+ .text.process_record_kb
+                0x0000000000000322        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000322                process_record_kb
+ .text.reset_keyboard
+                0x0000000000000326       0x1a .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000326                reset_keyboard
+ .text.process_record_quantum
+                0x0000000000000340      0x24c .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000340                process_record_quantum
+ .text.matrix_init_quantum
+                0x000000000000058c        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x000000000000058c                matrix_init_quantum
+ .text.matrix_scan_quantum
+                0x0000000000000590        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000590                matrix_scan_quantum
+ .text.led_set_user
+                0x0000000000000594        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000594                led_set_user
+ .text.led_set_kb
+                0x0000000000000596        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x0000000000000596                led_set_kb
+ .text.led_set  0x000000000000059a        0x4 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                0x000000000000059a                led_set
+ .text.action_for_key
+                0x000000000000059e      0x31e .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                0x000000000000059e                action_for_key
+ .text.action_function
+                0x00000000000008bc        0x2 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                0x00000000000008bc                action_function
+ .text.keymap_key_to_keycode
+                0x00000000000008be       0x28 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                0x00000000000008be                keymap_key_to_keycode
+ .text.keycode_config
+                0x00000000000008e6       0xf8 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+                0x00000000000008e6                keycode_config
+ .text.leader_start
+                0x00000000000009de        0x2 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x00000000000009de                leader_start
+ .text.process_leader
+                0x00000000000009e0       0x98 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x00000000000009e0                process_leader
+ .text.unselect_rows
+                0x0000000000000a78       0x42 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .text.matrix_init_user
+                0x0000000000000aba        0x2 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000aba                matrix_init_user
+ .text.matrix_scan_user
+                0x0000000000000abc        0x2 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000abc                matrix_scan_user
+ .text.matrix_scan_kb
+                0x0000000000000abe        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000abe                matrix_scan_kb
+ .text.matrix_init
+                0x0000000000000ac2       0x68 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000ac2                matrix_init
+ .text.matrix_scan
+                0x0000000000000b2a      0x106 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000b2a                matrix_scan
+ .text.matrix_get_row
+                0x0000000000000c30        0xc .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000c30                matrix_get_row
+ .text.matrix_print
+                0x0000000000000c3c        0x2 .build/obj_numpad_rev4_basic/quantum/matrix.o
+                0x0000000000000c3c                matrix_print
+ .text.host_set_driver
+                0x0000000000000c3e        0xa .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000000c3e                host_set_driver
+ .text.host_keyboard_leds
+                0x0000000000000c48       0x18 .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000000c48                host_keyboard_leds
+ .text.host_keyboard_send
+                0x0000000000000c60       0x16 .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000000c60                host_keyboard_send
+ .text.host_system_send
+                0x0000000000000c76       0x2c .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000000c76                host_system_send
+ .text.host_consumer_send
+                0x0000000000000ca2       0x2c .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000000ca2                host_consumer_send
+ .text.matrix_setup
+                0x0000000000000cce        0x2 .build/obj_numpad_rev4_basic/common/keyboard.o
+                0x0000000000000cce                matrix_setup
+ .text.keyboard_setup
+                0x0000000000000cd0        0x4 .build/obj_numpad_rev4_basic/common/keyboard.o
+                0x0000000000000cd0                keyboard_setup
+ .text.keyboard_init
+                0x0000000000000cd4        0xc .build/obj_numpad_rev4_basic/common/keyboard.o
+                0x0000000000000cd4                keyboard_init
+ .text.keyboard_task
+                0x0000000000000ce0      0x142 .build/obj_numpad_rev4_basic/common/keyboard.o
+                0x0000000000000ce0                keyboard_task
+ .text.action_exec
+                0x0000000000000e22       0x5c .build/obj_numpad_rev4_basic/common/action.o
+                0x0000000000000e22                action_exec
+ .text.register_code
+                0x0000000000000e7e      0x190 .build/obj_numpad_rev4_basic/common/action.o
+                0x0000000000000e7e                register_code
+ .text.unregister_code
+                0x000000000000100e       0x9e .build/obj_numpad_rev4_basic/common/action.o
+                0x000000000000100e                unregister_code
+ .text.register_mods
+                0x00000000000010ac        0xe .build/obj_numpad_rev4_basic/common/action.o
+                0x00000000000010ac                register_mods
+ .text.unregister_mods
+                0x00000000000010ba        0xe .build/obj_numpad_rev4_basic/common/action.o
+                0x00000000000010ba                unregister_mods
+ .text.process_action
+                0x00000000000010c8      0x3ee .build/obj_numpad_rev4_basic/common/action.o
+                0x00000000000010c8                process_action
+ .text.process_record
+                0x00000000000014b6       0x58 .build/obj_numpad_rev4_basic/common/action.o
+                0x00000000000014b6                process_record
+ .text.clear_keyboard_but_mods
+                0x000000000000150e       0x10 .build/obj_numpad_rev4_basic/common/action.o
+                0x000000000000150e                clear_keyboard_but_mods
+ .text.clear_keyboard
+                0x000000000000151e        0x8 .build/obj_numpad_rev4_basic/common/action.o
+                0x000000000000151e                clear_keyboard
+ .text.is_tap_key
+                0x0000000000001526       0x52 .build/obj_numpad_rev4_basic/common/action.o
+                0x0000000000001526                is_tap_key
+ .text.debug_event
+                0x0000000000001578       0x1e .build/obj_numpad_rev4_basic/common/action.o
+                0x0000000000001578                debug_event
+ .text.debug_record
+                0x0000000000001596       0x20 .build/obj_numpad_rev4_basic/common/action.o
+                0x0000000000001596                debug_record
+ .text.debug_waiting_buffer
+                0x00000000000015b6       0x42 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .text.debug_tapping_key
+                0x00000000000015f8       0x1c .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .text.waiting_buffer_scan_tap
+                0x0000000000001614       0xd0 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .text.process_tapping
+                0x00000000000016e4      0x3da .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .text.action_tapping_process
+                0x0000000000001abe      0x15a .build/obj_numpad_rev4_basic/common/action_tapping.o
+                0x0000000000001abe                action_tapping_process
+ .text.action_macro_play
+                0x0000000000001c18      0x104 .build/obj_numpad_rev4_basic/common/action_macro.o
+                0x0000000000001c18                action_macro_play
+ .text.default_layer_debug
+                0x0000000000001d1c        0x2 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001d1c                default_layer_debug
+ .text.default_layer_set
+                0x0000000000001d1e       0x14 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001d1e                default_layer_set
+ .text.default_layer_or
+                0x0000000000001d32       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001d32                default_layer_or
+ .text.default_layer_and
+                0x0000000000001d66       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001d66                default_layer_and
+ .text.default_layer_xor
+                0x0000000000001d9a       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001d9a                default_layer_xor
+ .text.layer_clear
+                0x0000000000001dce       0x14 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001dce                layer_clear
+ .text.layer_move
+                0x0000000000001de2       0x2a .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001de2                layer_move
+ .text.layer_on
+                0x0000000000001e0c       0x42 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001e0c                layer_on
+ .text.layer_off
+                0x0000000000001e4e       0x4a .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001e4e                layer_off
+ .text.layer_invert
+                0x0000000000001e98       0x42 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001e98                layer_invert
+ .text.layer_or
+                0x0000000000001eda       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001eda                layer_or
+ .text.layer_and
+                0x0000000000001f0e       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001f0e                layer_and
+ .text.layer_xor
+                0x0000000000001f42       0x34 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001f42                layer_xor
+ .text.layer_debug
+                0x0000000000001f76        0x2 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001f76                layer_debug
+ .text.layer_switch_get_layer
+                0x0000000000001f78       0x80 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001f78                layer_switch_get_layer
+ .text.layer_switch_get_action
+                0x0000000000001ff8       0x16 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000001ff8                layer_switch_get_action
+ .text.store_or_get_action
+                0x000000000000200e        0x8 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x000000000000200e                store_or_get_action
+ .text.get_oneshot_layer
+                0x0000000000002016        0xc .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000002016                get_oneshot_layer
+ .text.get_oneshot_layer_state
+                0x0000000000002022        0x8 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000002022                get_oneshot_layer_state
+ .text.set_oneshot_layer
+                0x000000000000202a       0x12 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000202a                set_oneshot_layer
+ .text.clear_oneshot_layer_state
+                0x000000000000203c       0x2e .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000203c                clear_oneshot_layer_state
+ .text.is_oneshot_layer_active
+                0x000000000000206a        0xe .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000206a                is_oneshot_layer_active
+ .text.add_key  0x0000000000002078       0x80 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000002078                add_key
+ .text.del_key  0x00000000000020f8       0x66 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000020f8                del_key
+ .text.clear_keys
+                0x000000000000215e       0x1c .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000215e                clear_keys
+ .text.add_mods
+                0x000000000000217a        0xc .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000217a                add_mods
+ .text.del_mods
+                0x0000000000002186        0xe .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000002186                del_mods
+ .text.clear_mods
+                0x0000000000002194        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000002194                clear_mods
+ .text.add_weak_mods
+                0x000000000000219a        0xc .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000219a                add_weak_mods
+ .text.del_weak_mods
+                0x00000000000021a6        0xe .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021a6                del_weak_mods
+ .text.clear_weak_mods
+                0x00000000000021b4        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021b4                clear_weak_mods
+ .text.add_macro_mods
+                0x00000000000021ba        0xc .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021ba                add_macro_mods
+ .text.del_macro_mods
+                0x00000000000021c6        0xe .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021c6                del_macro_mods
+ .text.clear_macro_mods
+                0x00000000000021d4        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021d4                clear_macro_mods
+ .text.set_oneshot_mods
+                0x00000000000021da        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021da                set_oneshot_mods
+ .text.clear_oneshot_mods
+                0x00000000000021e0        0x6 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021e0                clear_oneshot_mods
+ .text.has_anykey
+                0x00000000000021e6       0x26 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x00000000000021e6                has_anykey
+ .text.send_keyboard_report
+                0x000000000000220c       0x5e .build/obj_numpad_rev4_basic/common/action_util.o
+                0x000000000000220c                send_keyboard_report
+ .text.eeconfig_init
+                0x000000000000226a       0x34 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x000000000000226a                eeconfig_init
+ .text.eeconfig_is_enabled
+                0x000000000000229e       0x16 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x000000000000229e                eeconfig_is_enabled
+ .text.eeconfig_read_debug
+                0x00000000000022b4        0x8 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x00000000000022b4                eeconfig_read_debug
+ .text.eeconfig_read_default_layer
+                0x00000000000022bc        0x8 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x00000000000022bc                eeconfig_read_default_layer
+ .text.eeconfig_read_keymap
+                0x00000000000022c4        0x8 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x00000000000022c4                eeconfig_read_keymap
+ .text.eeconfig_update_keymap
+                0x00000000000022cc        0xa .build/obj_numpad_rev4_basic/common/eeconfig.o
+                0x00000000000022cc                eeconfig_update_keymap
+ .text.suspend_power_down
+                0x00000000000022d6       0x52 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x00000000000022d6                suspend_power_down
+ .text.matrix_power_up
+                0x0000000000002328        0x2 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x0000000000002328                matrix_power_up
+ .text.matrix_power_down
+                0x000000000000232a        0x2 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x000000000000232a                matrix_power_down
+ .text.suspend_wakeup_condition
+                0x000000000000232c       0x2a .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x000000000000232c                suspend_wakeup_condition
+ .text.suspend_wakeup_init
+                0x0000000000002356        0xc .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x0000000000002356                suspend_wakeup_init
+ .text.__vector_12
+                0x0000000000002362       0x52 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                0x0000000000002362                __vector_12
+ .text.timer_init
+                0x00000000000023b4       0x12 .build/obj_numpad_rev4_basic/common/avr/timer.o
+                0x00000000000023b4                timer_init
+ .text.timer_read
+                0x00000000000023c6       0x18 .build/obj_numpad_rev4_basic/common/avr/timer.o
+                0x00000000000023c6                timer_read
+ .text.timer_elapsed
+                0x00000000000023de       0x52 .build/obj_numpad_rev4_basic/common/avr/timer.o
+                0x00000000000023de                timer_elapsed
+ .text.__vector_21
+                0x0000000000002430       0x4a .build/obj_numpad_rev4_basic/common/avr/timer.o
+                0x0000000000002430                __vector_21
+ .text.bootloader_jump
+                0x000000000000247a       0x46 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+                0x000000000000247a                bootloader_jump
+ .text.magic    0x00000000000024c0       0x3c .build/obj_numpad_rev4_basic/common/magic.o
+                0x00000000000024c0                magic
+ .text.keyboard_leds
+                0x00000000000024fc        0x6 .build/obj_numpad_rev4_basic/lufa.o
+ .text.send_mouse
+                0x0000000000002502        0x2 .build/obj_numpad_rev4_basic/lufa.o
+ .text.send_consumer
+                0x0000000000002504       0x68 .build/obj_numpad_rev4_basic/lufa.o
+ .text.send_system
+                0x000000000000256c       0x68 .build/obj_numpad_rev4_basic/lufa.o
+ .text.send_keyboard
+                0x00000000000025d4       0xa4 .build/obj_numpad_rev4_basic/lufa.o
+ .text.EVENT_USB_Device_Connect
+                0x0000000000002678       0x1c .build/obj_numpad_rev4_basic/lufa.o
+                0x0000000000002678                EVENT_USB_Device_Connect
+ .text.EVENT_USB_Device_Disconnect
+                0x0000000000002694        0x6 .build/obj_numpad_rev4_basic/lufa.o
+                0x0000000000002694                EVENT_USB_Device_Disconnect
+ .text.EVENT_USB_Device_Reset
+                0x000000000000269a        0x2 .build/obj_numpad_rev4_basic/lufa.o
+                0x000000000000269a                EVENT_USB_Device_Reset
+ .text.EVENT_USB_Device_Suspend
+                0x000000000000269c        0x2 .build/obj_numpad_rev4_basic/lufa.o
+                0x000000000000269c                EVENT_USB_Device_Suspend
+ .text.EVENT_USB_Device_WakeUp
+                0x000000000000269e        0x4 .build/obj_numpad_rev4_basic/lufa.o
+                0x000000000000269e                EVENT_USB_Device_WakeUp
+ .text.EVENT_USB_Device_ConfigurationChanged
+                0x00000000000026a2       0x14 .build/obj_numpad_rev4_basic/lufa.o
+                0x00000000000026a2                EVENT_USB_Device_ConfigurationChanged
+ .text.EVENT_USB_Device_ControlRequest
+                0x00000000000026b6      0x160 .build/obj_numpad_rev4_basic/lufa.o
+                0x00000000000026b6                EVENT_USB_Device_ControlRequest
+ .text.startup.main
+                0x0000000000002816       0x70 .build/obj_numpad_rev4_basic/lufa.o
+                0x0000000000002816                main
+ .text.CALLBACK_USB_GetDescriptor
+                0x0000000000002886       0xac .build/obj_numpad_rev4_basic/descriptor.o
+                0x0000000000002886                CALLBACK_USB_GetDescriptor
+ .text.USB_Device_SendRemoteWakeup
+                0x0000000000002932       0x2c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                0x0000000000002932                USB_Device_SendRemoteWakeup
+ .text.Endpoint_Write_Stream_LE
+                0x000000000000295e       0x92 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x000000000000295e                Endpoint_Write_Stream_LE
+ .text.Endpoint_Write_Control_Stream_LE
+                0x00000000000029f0       0xc2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x00000000000029f0                Endpoint_Write_Control_Stream_LE
+ .text.Endpoint_Write_Control_PStream_LE
+                0x0000000000002ab2       0xc4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000000000002ab2                Endpoint_Write_Control_PStream_LE
+ .text.Endpoint_ConfigureEndpoint_Prv
+                0x0000000000002b76       0x6a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x0000000000002b76                Endpoint_ConfigureEndpoint_Prv
+ .text.Endpoint_ClearStatusStage
+                0x0000000000002be0       0x42 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x0000000000002be0                Endpoint_ClearStatusStage
+ .text.Endpoint_WaitUntilReady
+                0x0000000000002c22       0x60 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x0000000000002c22                Endpoint_WaitUntilReady
+ .text.USB_Disable
+                0x0000000000002c82       0x34 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000002c82                USB_Disable
+ .text.USB_ResetInterface
+                0x0000000000002cb6       0x86 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000002cb6                USB_ResetInterface
+ .text.USB_Init
+                0x0000000000002d3c       0x22 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000002d3c                USB_Init
+ .text.USB_INT_DisableAllInterrupts
+                0x0000000000002d5e       0x10 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000002d5e                USB_INT_DisableAllInterrupts
+ .text.USB_INT_ClearAllInterrupts
+                0x0000000000002d6e        0xa .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000002d6e                USB_INT_ClearAllInterrupts
+ .text.__vector_10
+                0x0000000000002d78      0x1a4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000002d78                __vector_10
+ .text.__vector_11
+                0x0000000000002f1c       0x78 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x0000000000002f1c                __vector_11
+ .text.USB_Device_ProcessControlRequest
+                0x0000000000002f94      0x29c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x0000000000002f94                USB_Device_ProcessControlRequest
+ .text.USB_Event_Stub
+                0x0000000000003230        0x2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+                0x0000000000003230                USB_Event_Stub
+                0x0000000000003230                EVENT_USB_Device_StartOfFrame
+ .text.USB_USBTask
+                0x0000000000003232       0x3a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                0x0000000000003232                USB_USBTask
+ .text.libgcc   0x000000000000326c        0xc /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+                0x000000000000326c                __tablejump2__
+                0x0000000000003270                __tablejump__
+ .text.avr-libc
+                0x0000000000003278       0x10 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+                0x0000000000003278                __eerd_byte_m32u4
+ .text.avr-libc
+                0x0000000000003288        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+                0x0000000000003288                __eerd_word_m32u4
+ .text.avr-libc
+                0x0000000000003294       0x24 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+                0x0000000000003294                __eeupd_byte_m32u4
+                0x0000000000003296                __eeupd_r18_m32u4
+ .text.avr-libc
+                0x00000000000032b8        0xc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+                0x00000000000032b8                __eeupd_word_m32u4
+ .text.avr-libc
+                0x00000000000032c4       0x20 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+                0x00000000000032c4                __eerd_block_m32u4
+                0x00000000000032c8                __eerd_blraw_m32u4
+                0x00000000000032e4                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00000000000032e4        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+                0x00000000000032e4                exit
+                0x00000000000032e4                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00000000000032e4        0x4 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00000000000032e8                _etext = .
+
+.data           0x0000000000800100       0x18 load address 0x00000000000032e8
+                0x0000000000800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/host.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/action.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/action_util.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/print.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/debug.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/util.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/common/magic.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/lufa.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/descriptor.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .data          0x0000000000800100        0x0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+ .data          0x0000000000800100        0x0 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+ *(.data*)
+ .data.debouncing
+                0x0000000000800100        0x1 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .data.keyboard_nkro
+                0x0000000000800101        0x1 .build/obj_numpad_rev4_basic/common/host.o
+                0x0000000000800101                keyboard_nkro
+ .data.keyboard_report
+                0x0000000000800102        0x2 .build/obj_numpad_rev4_basic/common/action_util.o
+                0x0000000000800102                keyboard_report
+ .data.lufa_driver
+                0x0000000000800104        0xa .build/obj_numpad_rev4_basic/lufa.o
+                0x0000000000800104                lufa_driver
+ .data.keyboard_protocol
+                0x000000000080010e        0x1 .build/obj_numpad_rev4_basic/lufa.o
+                0x000000000080010e                keyboard_protocol
+ *(.rodata)
+ *(.rodata*)
+ .rodata.col_pins
+                0x000000000080010f        0x4 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .rodata.row_pins
+                0x0000000000800113        0x5 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ *(.gnu.linkonce.d*)
+                0x0000000000800118                . = ALIGN (0x2)
+                0x0000000000800118                _edata = .
+                0x0000000000800118                PROVIDE (__data_end, .)
+
+.bss            0x0000000000800118       0xa2
+                0x0000000000800118                PROVIDE (__bss_start, .)
+ *(.bss)
+ *(.bss*)
+ .bss.shift_interrupted
+                0x0000000000800118        0x2 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .bss.leader_sequence_size
+                0x000000000080011a        0x1 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x000000000080011a                leader_sequence_size
+ .bss.leader_sequence
+                0x000000000080011b        0xa .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x000000000080011b                leader_sequence
+ .bss.leader_time
+                0x0000000000800125        0x2 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x0000000000800125                leader_time
+ .bss.leading   0x0000000000800127        0x1 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                0x0000000000800127                leading
+ .bss.matrix_debouncing
+                0x0000000000800128        0x5 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .bss.matrix    0x000000000080012d        0x5 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .bss.last_consumer_report
+                0x0000000000800132        0x2 .build/obj_numpad_rev4_basic/common/host.o
+ .bss.last_system_report
+                0x0000000000800134        0x2 .build/obj_numpad_rev4_basic/common/host.o
+ .bss.driver    0x0000000000800136        0x2 .build/obj_numpad_rev4_basic/common/host.o
+ .bss.led_status.4849
+                0x0000000000800138        0x1 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .bss.matrix_prev.4848
+                0x0000000000800139        0x5 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .bss.waiting_buffer_tail
+                0x000000000080013e        0x1 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .bss.waiting_buffer_head
+                0x000000000080013f        0x1 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .bss.waiting_buffer
+                0x0000000000800140       0x30 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .bss.tapping_key
+                0x0000000000800170        0x6 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .bss.layer_state
+                0x0000000000800176        0x4 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x0000000000800176                layer_state
+ .bss.default_layer_state
+                0x000000000080017a        0x4 .build/obj_numpad_rev4_basic/common/action_layer.o
+                0x000000000080017a                default_layer_state
+ .bss.oneshot_layer_data
+                0x000000000080017e        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.oneshot_mods
+                0x000000000080017f        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.__compound_literal.0
+                0x0000000000800180       0x10 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.macro_mods
+                0x0000000000800190        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.weak_mods
+                0x0000000000800191        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.real_mods
+                0x0000000000800192        0x1 .build/obj_numpad_rev4_basic/common/action_util.o
+ .bss.debug_config
+                0x0000000000800193        0x1 .build/obj_numpad_rev4_basic/common/debug.o
+                0x0000000000800193                debug_config
+ .bss.wdt_timeout
+                0x0000000000800194        0x1 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .bss.timer_count
+                0x0000000000800195        0x4 .build/obj_numpad_rev4_basic/common/avr/timer.o
+                0x0000000000800195                timer_count
+ .bss.keyboard_report_sent
+                0x0000000000800199       0x10 .build/obj_numpad_rev4_basic/lufa.o
+ .bss.keyboard_led_stats
+                0x00000000008001a9        0x1 .build/obj_numpad_rev4_basic/lufa.o
+ .bss.keyboard_idle
+                0x00000000008001aa        0x1 .build/obj_numpad_rev4_basic/lufa.o
+                0x00000000008001aa                keyboard_idle
+ *(COMMON)
+ COMMON         0x00000000008001ab        0x2 .build/obj_numpad_rev4_basic/common/magic.o
+                0x00000000008001ab                keymap_config
+ COMMON         0x00000000008001ad        0x3 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x00000000008001ad                USB_Device_ConfigurationNumber
+                0x00000000008001ae                USB_Device_CurrentlySelfPowered
+                0x00000000008001af                USB_Device_RemoteWakeupEnabled
+ COMMON         0x00000000008001b0        0xa .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                0x00000000008001b0                USB_IsInitialized
+                0x00000000008001b1                USB_DeviceState
+                0x00000000008001b2                USB_ControlRequest
+                0x00000000008001ba                PROVIDE (__bss_end, .)
+                0x00000000000032e8                __data_load_start = LOADADDR (.data)
+                0x0000000000003300                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00000000008001ba        0x4
+                0x00000000008001ba                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+ .noinit        0x00000000008001ba        0x4 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+                0x00000000008001ba                reset_key
+                0x00000000008001be                PROVIDE (__noinit_end, .)
+                0x00000000008001be                _end = .
+                0x00000000008001be                PROVIDE (__heap_start, .)
+
+.eeprom         0x0000000000810000        0x0
+ *(.eeprom*)
+                0x0000000000810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab           0x0000000000000000      0xa5c
+ *(.stab)
+ .stab          0x0000000000000000      0x6cc /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+ .stab          0x00000000000006cc       0x18 .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+                                        0x8b8 (size before relaxing)
+ .stab          0x00000000000006e4       0x90 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+                                         0x9c (size before relaxing)
+ .stab          0x0000000000000774       0x6c /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+                                         0x78 (size before relaxing)
+ .stab          0x00000000000007e0      0x114 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+                                        0x120 (size before relaxing)
+ .stab          0x00000000000008f4       0x60 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+                                         0x6c (size before relaxing)
+ .stab          0x0000000000000954      0x108 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+                                        0x114 (size before relaxing)
+
+.stabstr        0x0000000000000000      0x1aa
+ *(.stabstr)
+ .stabstr       0x0000000000000000      0x1aa /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x11
+ *(.comment)
+ .comment       0x0000000000000000       0x11 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+                                         0x12 (size before relaxing)
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/host.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/action.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/action_util.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/print.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/debug.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/util.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/common/magic.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/lufa.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/descriptor.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .comment       0x0000000000000000       0x12 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0xac8
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x20 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_aranges
+                0x0000000000000020       0x20 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_aranges
+                0x0000000000000040       0xa8 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_aranges
+                0x00000000000000e8       0x38 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_aranges
+                0x0000000000000120       0x20 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_aranges
+                0x0000000000000140       0x30 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_aranges
+                0x0000000000000170       0x18 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .debug_aranges
+                0x0000000000000188       0x98 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_aranges
+                0x0000000000000220       0x60 .build/obj_numpad_rev4_basic/common/host.o
+ .debug_aranges
+                0x0000000000000280       0x40 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_aranges
+                0x00000000000002c0       0x90 .build/obj_numpad_rev4_basic/common/action.o
+ .debug_aranges
+                0x0000000000000350       0x40 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_aranges
+                0x0000000000000390       0x20 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_aranges
+                0x00000000000003b0       0xa0 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_aranges
+                0x0000000000000450      0x128 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_aranges
+                0x0000000000000578       0x18 .build/obj_numpad_rev4_basic/common/print.o
+ .debug_aranges
+                0x0000000000000590       0x18 .build/obj_numpad_rev4_basic/common/debug.o
+ .debug_aranges
+                0x00000000000005a8       0x60 .build/obj_numpad_rev4_basic/common/util.o
+ .debug_aranges
+                0x0000000000000608       0x68 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_aranges
+                0x0000000000000670       0x50 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_aranges
+                0x00000000000006c0       0x50 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_aranges
+                0x0000000000000710       0x28 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_aranges
+                0x0000000000000738       0x20 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_aranges
+                0x0000000000000758       0x88 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_aranges
+                0x00000000000007e0       0x20 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_aranges
+                0x0000000000000800       0x38 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_aranges
+                0x0000000000000838       0x20 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_aranges
+                0x0000000000000858       0xc8 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_aranges
+                0x0000000000000920       0x40 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_aranges
+                0x0000000000000960       0x18 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_aranges
+                0x0000000000000978       0x18 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_aranges
+                0x0000000000000990       0x18 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_aranges
+                0x00000000000009a8       0x30 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_aranges
+                0x00000000000009d8       0x38 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_aranges
+                0x0000000000000a10       0x40 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_aranges
+                0x0000000000000a50       0x20 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_aranges
+                0x0000000000000a70       0x20 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_aranges
+                0x0000000000000a90       0x18 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_aranges
+                0x0000000000000aa8       0x20 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000     0xf2ce
+ *(.debug_info)
+ .debug_info    0x0000000000000000       0xc3 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_info    0x00000000000000c3      0x72d .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_info    0x00000000000007f0     0x1347 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_info    0x0000000000001b37     0x11b3 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_info    0x0000000000002cea      0x5ec .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_info    0x00000000000032d6      0x5ba .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_info    0x0000000000003890       0x88 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .debug_info    0x0000000000003918      0x672 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_info    0x0000000000003f8a      0x4bb .build/obj_numpad_rev4_basic/common/host.o
+ .debug_info    0x0000000000004445      0x422 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_info    0x0000000000004867     0x178b .build/obj_numpad_rev4_basic/common/action.o
+ .debug_info    0x0000000000005ff2      0xe2e .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_info    0x0000000000006e20      0x81d .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_info    0x000000000000763d      0x8a4 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_info    0x0000000000007ee1      0x8e4 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_info    0x00000000000087c5       0x56 .build/obj_numpad_rev4_basic/common/print.o
+ .debug_info    0x000000000000881b       0xfc .build/obj_numpad_rev4_basic/common/debug.o
+ .debug_info    0x0000000000008917      0x29b .build/obj_numpad_rev4_basic/common/util.o
+ .debug_info    0x0000000000008bb2      0x3cf .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_info    0x0000000000008f81      0x2b8 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_info    0x0000000000009239      0x204 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_info    0x000000000000943d      0x19a .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_info    0x00000000000095d7      0x2c0 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_info    0x0000000000009897      0xe5b .build/obj_numpad_rev4_basic/lufa.o
+ .debug_info    0x000000000000a6f2      0x716 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_info    0x000000000000ae08      0x73e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_info    0x000000000000b546       0xd2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_info    0x000000000000b618     0x17b4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_info    0x000000000000cdcc      0x614 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_info    0x000000000000d3e0       0x56 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_info    0x000000000000d436       0x56 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_info    0x000000000000d48c       0x56 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_info    0x000000000000d4e2      0x4cb .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_info    0x000000000000d9ad      0x7c4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_info    0x000000000000e171      0x3cd .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_info    0x000000000000e53e      0xa57 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_info    0x000000000000ef95       0x78 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_info    0x000000000000f00d       0x56 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_info    0x000000000000f063      0x26b .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x0000000000000000     0x3bb2
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000       0x8a .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_abbrev  0x000000000000008a      0x155 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_abbrev  0x00000000000001df      0x357 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_abbrev  0x0000000000000536      0x299 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_abbrev  0x00000000000007cf       0xd0 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_abbrev  0x000000000000089f      0x150 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_abbrev  0x00000000000009ef       0x4b .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .debug_abbrev  0x0000000000000a3a      0x285 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_abbrev  0x0000000000000cbf      0x194 .build/obj_numpad_rev4_basic/common/host.o
+ .debug_abbrev  0x0000000000000e53      0x23d .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_abbrev  0x0000000000001090      0x331 .build/obj_numpad_rev4_basic/common/action.o
+ .debug_abbrev  0x00000000000013c1      0x2ef .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_abbrev  0x00000000000016b0      0x180 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_abbrev  0x0000000000001830      0x243 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_abbrev  0x0000000000001a73      0x2f9 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_abbrev  0x0000000000001d6c       0x26 .build/obj_numpad_rev4_basic/common/print.o
+ .debug_abbrev  0x0000000000001d92       0x87 .build/obj_numpad_rev4_basic/common/debug.o
+ .debug_abbrev  0x0000000000001e19       0xcb .build/obj_numpad_rev4_basic/common/util.o
+ .debug_abbrev  0x0000000000001ee4       0xef .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_abbrev  0x0000000000001fd3      0x1be .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_abbrev  0x0000000000002191      0x11e .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_abbrev  0x00000000000022af      0x11c .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_abbrev  0x00000000000023cb      0x123 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_abbrev  0x00000000000024ee      0x411 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_abbrev  0x00000000000028ff      0x177 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_abbrev  0x0000000000002a76      0x21e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_abbrev  0x0000000000002c94       0x80 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_abbrev  0x0000000000002d14      0x213 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_abbrev  0x0000000000002f27      0x222 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_abbrev  0x0000000000003149       0x26 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_abbrev  0x000000000000316f       0x26 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_abbrev  0x0000000000003195       0x26 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_abbrev  0x00000000000031bb      0x196 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_abbrev  0x0000000000003351      0x234 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_abbrev  0x0000000000003585      0x183 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_abbrev  0x0000000000003708      0x2d8 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_abbrev  0x00000000000039e0       0x44 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_abbrev  0x0000000000003a24       0x26 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_abbrev  0x0000000000003a4a      0x168 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_line     0x0000000000000000     0x4f92
+ *(.debug_line)
+ .debug_line    0x0000000000000000       0xd0 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_line    0x00000000000000d0      0x12d .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_line    0x00000000000001fd      0x36f .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_line    0x000000000000056c      0x223 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_line    0x000000000000078f       0xc9 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_line    0x0000000000000858      0x155 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_line    0x00000000000009ad       0x84 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+ .debug_line    0x0000000000000a31      0x23c .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_line    0x0000000000000c6d      0x16b .build/obj_numpad_rev4_basic/common/host.o
+ .debug_line    0x0000000000000dd8      0x184 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_line    0x0000000000000f5c      0x3d6 .build/obj_numpad_rev4_basic/common/action.o
+ .debug_line    0x0000000000001332      0x263 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_line    0x0000000000001595      0x15c .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_line    0x00000000000016f1      0x206 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_line    0x00000000000018f7      0x3a0 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_line    0x0000000000001c97       0x1a .build/obj_numpad_rev4_basic/common/print.o
+ .debug_line    0x0000000000001cb1       0x67 .build/obj_numpad_rev4_basic/common/debug.o
+ .debug_line    0x0000000000001d18      0x17c .build/obj_numpad_rev4_basic/common/util.o
+ .debug_line    0x0000000000001e94      0x127 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_line    0x0000000000001fbb      0x1da .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_line    0x0000000000002195      0x10b .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_line    0x00000000000022a0      0x168 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_line    0x0000000000002408      0x112 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_line    0x000000000000251a      0x5b9 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_line    0x0000000000002ad3      0x1e5 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_line    0x0000000000002cb8      0x243 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_line    0x0000000000002efb      0x128 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_line    0x0000000000003023      0xc61 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_line    0x0000000000003c84      0x3e7 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_line    0x000000000000406b       0x1a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+ .debug_line    0x0000000000004085       0x1a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+ .debug_line    0x000000000000409f       0x1a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+ .debug_line    0x00000000000040b9      0x2f2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_line    0x00000000000043ab      0x4c7 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_line    0x0000000000004872      0x17f .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_line    0x00000000000049f1      0x383 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_line    0x0000000000004d74       0x71 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_line    0x0000000000004de5       0x1a .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+ .debug_line    0x0000000000004dff      0x193 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_frame    0x0000000000000000     0x19d8
+ *(.debug_frame)
+ .debug_frame   0x0000000000000000       0x24 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_frame   0x0000000000000024       0x24 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_frame   0x0000000000000048      0x18c .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_frame   0x00000000000001d4       0x54 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_frame   0x0000000000000228       0x24 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_frame   0x000000000000024c       0x50 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_frame   0x000000000000029c      0x154 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_frame   0x00000000000003f0       0xa4 .build/obj_numpad_rev4_basic/common/host.o
+ .debug_frame   0x0000000000000494       0x9c .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_frame   0x0000000000000530      0x1a8 .build/obj_numpad_rev4_basic/common/action.o
+ .debug_frame   0x00000000000006d8       0xd0 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_frame   0x00000000000007a8       0x48 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_frame   0x00000000000007f0      0x1a8 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_frame   0x0000000000000998      0x240 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_frame   0x0000000000000bd8      0x110 .build/obj_numpad_rev4_basic/common/util.o
+ .debug_frame   0x0000000000000ce8       0xb4 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_frame   0x0000000000000d9c       0xb0 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_frame   0x0000000000000e4c       0xf0 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_frame   0x0000000000000f3c       0x34 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_frame   0x0000000000000f70       0x24 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_frame   0x0000000000000f94      0x128 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_frame   0x00000000000010bc       0x24 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_frame   0x00000000000010e0      0x134 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_frame   0x0000000000001214       0x24 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_frame   0x0000000000001238      0x414 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_frame   0x000000000000164c       0x7c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_frame   0x00000000000016c8       0x5c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_frame   0x0000000000001724      0x104 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_frame   0x0000000000001828      0x124 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_frame   0x000000000000194c       0x3c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_frame   0x0000000000001988       0x24 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_frame   0x00000000000019ac       0x2c .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_str      0x0000000000000000     0x4853
+ *(.debug_str)
+ .debug_str     0x0000000000000000      0x198 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+                                        0x1da (size before relaxing)
+ .debug_str     0x0000000000000198      0x688 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                                        0x846 (size before relaxing)
+ .debug_str     0x0000000000000820      0x849 .build/obj_numpad_rev4_basic/quantum/quantum.o
+                                       0x108c (size before relaxing)
+ .debug_str     0x0000000000001069      0x5fc .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                                       0x1324 (size before relaxing)
+ .debug_str     0x0000000000001665       0x1f .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+                                        0x809 (size before relaxing)
+ .debug_str     0x0000000000001684       0x99 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                                        0x75e (size before relaxing)
+ .debug_str     0x000000000000171d       0x23 .build/obj_numpad_rev4_basic/keyboards/numpad/rev4/rev4.o
+                                        0x1bd (size before relaxing)
+ .debug_str     0x0000000000001740      0x11b .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                        0x377 (size before relaxing)
+ .debug_str     0x000000000000185b      0x141 .build/obj_numpad_rev4_basic/common/host.o
+                                        0x385 (size before relaxing)
+ .debug_str     0x000000000000199c       0xc8 .build/obj_numpad_rev4_basic/common/keyboard.o
+                                        0x33a (size before relaxing)
+ .debug_str     0x0000000000001a64      0x312 .build/obj_numpad_rev4_basic/common/action.o
+                                       0x11c8 (size before relaxing)
+ .debug_str     0x0000000000001d76       0xec .build/obj_numpad_rev4_basic/common/action_tapping.o
+                                        0xaee (size before relaxing)
+ .debug_str     0x0000000000001e62       0x83 .build/obj_numpad_rev4_basic/common/action_macro.o
+                                        0x89a (size before relaxing)
+ .debug_str     0x0000000000001ee5       0x6a .build/obj_numpad_rev4_basic/common/action_layer.o
+                                        0x435 (size before relaxing)
+ .debug_str     0x0000000000001f4f      0x183 .build/obj_numpad_rev4_basic/common/action_util.o
+                                        0x577 (size before relaxing)
+ .debug_str     0x00000000000020d2       0x1e .build/obj_numpad_rev4_basic/common/print.o
+                                        0x18c (size before relaxing)
+ .debug_str     0x00000000000020f0       0x1e .build/obj_numpad_rev4_basic/common/debug.o
+                                        0x1dc (size before relaxing)
+ .debug_str     0x000000000000210e       0x4f .build/obj_numpad_rev4_basic/common/util.o
+                                        0x1f2 (size before relaxing)
+ .debug_str     0x000000000000215d       0xf0 .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                        0x2c3 (size before relaxing)
+ .debug_str     0x000000000000224d      0x158 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                        0x366 (size before relaxing)
+ .debug_str     0x00000000000023a5       0x61 .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                        0x219 (size before relaxing)
+ .debug_str     0x0000000000002406       0x62 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+                                        0x268 (size before relaxing)
+ .debug_str     0x0000000000002468       0x1e .build/obj_numpad_rev4_basic/common/magic.o
+                                        0x341 (size before relaxing)
+ .debug_str     0x0000000000002486      0x4c9 .build/obj_numpad_rev4_basic/lufa.o
+                                        0x8f6 (size before relaxing)
+ .debug_str     0x000000000000294f      0x6f8 .build/obj_numpad_rev4_basic/descriptor.o
+                                        0x902 (size before relaxing)
+ .debug_str     0x0000000000003047      0x4b4 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+                                        0x6e0 (size before relaxing)
+ .debug_str     0x00000000000034fb       0x7b .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                        0x21c (size before relaxing)
+ .debug_str     0x0000000000003576      0x4d9 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                        0x87f (size before relaxing)
+ .debug_str     0x0000000000003a4f      0x271 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                        0x63e (size before relaxing)
+ .debug_str     0x0000000000003cc0       0x4d .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Host_AVR8.o
+                                        0x1bb (size before relaxing)
+ .debug_str     0x0000000000003d0d       0x53 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/PipeStream_AVR8.o
+                                        0x1c1 (size before relaxing)
+ .debug_str     0x0000000000003d60       0x4d .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Pipe_AVR8.o
+                                        0x1bb (size before relaxing)
+ .debug_str     0x0000000000003dad      0x1dd .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                        0x57d (size before relaxing)
+ .debug_str     0x0000000000003f8a      0x163 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                        0x5fc (size before relaxing)
+ .debug_str     0x00000000000040ed      0x247 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+                                        0x404 (size before relaxing)
+ .debug_str     0x0000000000004334      0x41b .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                        0x9f0 (size before relaxing)
+ .debug_str     0x000000000000474f       0x54 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+                                        0x1c2 (size before relaxing)
+ .debug_str     0x00000000000047a3       0x4e .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/HostStandardReq.o
+                                        0x1bc (size before relaxing)
+ .debug_str     0x00000000000047f1       0x62 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                        0x3a3 (size before relaxing)
+
+.debug_loc      0x0000000000000000     0x7b20
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000       0xe8 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_loc     0x00000000000000e8      0x516 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_loc     0x00000000000005fe      0x43c .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_loc     0x0000000000000a3a      0x116 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_loc     0x0000000000000b50       0xc7 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_loc     0x0000000000000c17      0x434 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_loc     0x000000000000104b       0xd8 .build/obj_numpad_rev4_basic/common/host.o
+ .debug_loc     0x0000000000001123      0x18b .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_loc     0x00000000000012ae      0xb2c .build/obj_numpad_rev4_basic/common/action.o
+ .debug_loc     0x0000000000001dda      0x633 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_loc     0x000000000000240d      0x49d .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_loc     0x00000000000028aa      0x718 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_loc     0x0000000000002fc2      0x2e0 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_loc     0x00000000000032a2      0x503 .build/obj_numpad_rev4_basic/common/util.o
+ .debug_loc     0x00000000000037a5       0x84 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_loc     0x0000000000003829       0xc5 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_loc     0x00000000000038ee      0x20a .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_loc     0x0000000000003af8       0x2a .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_loc     0x0000000000003b22      0x497 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_loc     0x0000000000003fb9      0x2e7 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_loc     0x00000000000042a0      0xab2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_loc     0x0000000000004d52     0x1db2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_loc     0x0000000000006b04      0x3f2 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_loc     0x0000000000006ef6       0x49 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_loc     0x0000000000006f3f      0x333 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_loc     0x0000000000007272      0x5bd .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_loc     0x000000000000782f      0x2a8 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_loc     0x0000000000007ad7       0x49 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000      0xc60
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000       0x10 .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+ .debug_ranges  0x0000000000000010       0x10 .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+ .debug_ranges  0x0000000000000020       0x98 .build/obj_numpad_rev4_basic/quantum/quantum.o
+ .debug_ranges  0x00000000000000b8       0x28 .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+ .debug_ranges  0x00000000000000e0       0x10 .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+ .debug_ranges  0x00000000000000f0       0x20 .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+ .debug_ranges  0x0000000000000110       0xa0 .build/obj_numpad_rev4_basic/quantum/matrix.o
+ .debug_ranges  0x00000000000001b0       0x50 .build/obj_numpad_rev4_basic/common/host.o
+ .debug_ranges  0x0000000000000200       0x50 .build/obj_numpad_rev4_basic/common/keyboard.o
+ .debug_ranges  0x0000000000000250       0x80 .build/obj_numpad_rev4_basic/common/action.o
+ .debug_ranges  0x00000000000002d0       0x60 .build/obj_numpad_rev4_basic/common/action_tapping.o
+ .debug_ranges  0x0000000000000330       0x40 .build/obj_numpad_rev4_basic/common/action_macro.o
+ .debug_ranges  0x0000000000000370      0x138 .build/obj_numpad_rev4_basic/common/action_layer.o
+ .debug_ranges  0x00000000000004a8      0x130 .build/obj_numpad_rev4_basic/common/action_util.o
+ .debug_ranges  0x00000000000005d8       0x50 .build/obj_numpad_rev4_basic/common/util.o
+ .debug_ranges  0x0000000000000628       0x58 .build/obj_numpad_rev4_basic/common/eeconfig.o
+ .debug_ranges  0x0000000000000680       0x58 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+ .debug_ranges  0x00000000000006d8       0x40 .build/obj_numpad_rev4_basic/common/avr/timer.o
+ .debug_ranges  0x0000000000000718       0x18 .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+ .debug_ranges  0x0000000000000730       0x10 .build/obj_numpad_rev4_basic/common/magic.o
+ .debug_ranges  0x0000000000000740       0x78 .build/obj_numpad_rev4_basic/lufa.o
+ .debug_ranges  0x00000000000007b8       0x10 .build/obj_numpad_rev4_basic/descriptor.o
+ .debug_ranges  0x00000000000007c8       0xd0 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+ .debug_ranges  0x0000000000000898       0x10 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_ranges  0x00000000000008a8      0x250 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_ranges  0x0000000000000af8       0x90 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_ranges  0x0000000000000b88       0x20 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_ranges  0x0000000000000ba8       0x28 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_ranges  0x0000000000000bd0       0x30 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+ .debug_ranges  0x0000000000000c00       0x40 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_ranges  0x0000000000000c40       0x10 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+ .debug_ranges  0x0000000000000c50       0x10 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(.build/numpad_rev4_basic.elf elf32-avr)
+LOAD linker stubs
+
+Cross Reference Table
+
+Symbol                                            File
+CALLBACK_HIDParser_FilterHIDReportItem            .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+CALLBACK_USB_GetDescriptor                        .build/obj_numpad_rev4_basic/descriptor.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ConfigurationDescriptor                           .build/obj_numpad_rev4_basic/descriptor.o
+DeviceDescriptor                                  .build/obj_numpad_rev4_basic/descriptor.o
+EVENT_USB_Device_ConfigurationChanged             .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+EVENT_USB_Device_Connect                          .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_ControlRequest                   .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+EVENT_USB_Device_Disconnect                       .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_Reset                            .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_StartOfFrame                     .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_Suspend                          .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+EVENT_USB_Device_WakeUp                           .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+Endpoint_ClearEndpoints                           .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+Endpoint_ClearStatusStage                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+Endpoint_ConfigureEndpointTable                   .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+Endpoint_ConfigureEndpoint_Prv                    .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+Endpoint_Discard_Stream                           .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Null_Stream                              .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_BE                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_EStream_LE                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_BE                   .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Control_Stream_LE                   .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_EStream_BE                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_EStream_LE                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Stream_BE                           .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Read_Stream_LE                           .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_WaitUntilReady                           .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_BE                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_EStream_LE                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_BE                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_PStream_LE                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+Endpoint_Write_Control_Stream_BE                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Control_Stream_LE                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+Endpoint_Write_EStream_BE                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_EStream_LE                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_PStream_BE                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_PStream_LE                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Stream_BE                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+Endpoint_Write_Stream_LE                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+KeyboardReport                                    .build/obj_numpad_rev4_basic/descriptor.o
+LanguageString                                    .build/obj_numpad_rev4_basic/descriptor.o
+ManufacturerString                                .build/obj_numpad_rev4_basic/descriptor.o
+NKROReport                                        .build/obj_numpad_rev4_basic/descriptor.o
+ProductString                                     .build/obj_numpad_rev4_basic/descriptor.o
+USB_ControlRequest                                .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+USB_DeviceState                                   .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+USB_Device_ConfigurationNumber                    .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Device_CurrentlySelfPowered                   .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Device_ProcessControlRequest                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+USB_Device_RemoteWakeupEnabled                    .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+USB_Device_SendRemoteWakeup                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+USB_Disable                                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+USB_Event_Stub                                    .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/Events.o
+USB_GetHIDReportItemInfo                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_GetHIDReportSize                              .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_GetNextDescriptorComp                         .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfType                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeAfter                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_GetNextDescriptorOfTypeBefore                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/ConfigDescriptors.o
+USB_INT_ClearAllInterrupts                        .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_INT_DisableAllInterrupts                      .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_Init                                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+USB_IsInitialized                                 .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+USB_ProcessHIDReport                              .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_ResetInterface                                .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+USB_SetHIDReportItemInfo                          .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Class/Common/HIDParser.o
+USB_USBTask                                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+__bad_interrupt                                   /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__bss_end                                         /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+__bss_start                                       /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+__data_end                                        /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+__data_load_start                                 /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+__data_start                                      /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+__do_clear_bss                                    /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_clear_bss.o)
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.o
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/debug.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+__do_copy_data                                    /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_copy_data.o)
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+__eerd_block_m32u4                                /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+__eerd_blraw_m32u4                                /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_block_atmega32u4.o)
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+__eerd_byte_m32u4                                 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_byte_atmega32u4.o)
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/common/eeconfig.o
+__eerd_word_m32u4                                 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eerd_word_atmega32u4.o)
+                                                  .build/obj_numpad_rev4_basic/common/eeconfig.o
+__eeupd_byte_m32u4                                /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                                                  .build/obj_numpad_rev4_basic/common/eeconfig.o
+__eeupd_r18_m32u4                                 /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_byte_atmega32u4.o)
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+__eeupd_word_m32u4                                /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/libc.a(eeupd_word_atmega32u4.o)
+                                                  .build/obj_numpad_rev4_basic/common/eeconfig.o
+__heap_end                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__init                                            /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__stack                                           /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__tablejump2__                                    /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+                                                  .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+__tablejump__                                     /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_tablejump.o)
+__vector_1                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_10                                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_11                                       .build/obj_numpad_rev4_basic/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_12                                       .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_13                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_14                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_15                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_16                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_17                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_18                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_19                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_2                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_20                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_21                                       .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_22                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_23                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_24                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_25                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_26                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_27                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_28                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_29                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_3                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_30                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_31                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_32                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_33                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_34                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_35                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_36                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_37                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_38                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_39                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_4                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_40                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_41                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_42                                       /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_5                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_6                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_7                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_8                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_9                                        /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vector_default                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__vectors                                         /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+__xprintf                                         .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+_exit                                             /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+action_exec                                       .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+action_for_key                                    .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                                                  .build/obj_numpad_rev4_basic/common/action_layer.o
+action_function                                   .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+action_get_macro                                  .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+action_macro_play                                 .build/obj_numpad_rev4_basic/common/action_macro.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+action_tapping_process                            .build/obj_numpad_rev4_basic/common/action_tapping.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+add_key                                           .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+add_macro_mods                                    .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_macro.o
+add_mods                                          .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+add_weak_mods                                     .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+ascii_to_qwerty_keycode_lut                       .build/obj_numpad_rev4_basic/quantum/quantum.o
+ascii_to_qwerty_shift_lut                         .build/obj_numpad_rev4_basic/quantum/quantum.o
+backlight_init_ports                              .build/obj_numpad_rev4_basic/quantum/quantum.o
+backlight_set                                     .build/obj_numpad_rev4_basic/quantum/quantum.o
+biton                                             .build/obj_numpad_rev4_basic/common/util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+biton16                                           .build/obj_numpad_rev4_basic/common/util.o
+biton32                                           .build/obj_numpad_rev4_basic/common/util.o
+bitpop                                            .build/obj_numpad_rev4_basic/common/util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+bitpop16                                          .build/obj_numpad_rev4_basic/common/util.o
+                                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+bitpop32                                          .build/obj_numpad_rev4_basic/common/util.o
+bitrev                                            .build/obj_numpad_rev4_basic/common/util.o
+bitrev16                                          .build/obj_numpad_rev4_basic/common/util.o
+bitrev32                                          .build/obj_numpad_rev4_basic/common/util.o
+bootloader_jump                                   .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+bootloader_jump_after_watchdog_reset              .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+clear_keyboard                                    .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+clear_keyboard_but_mods                           .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_layer.o
+clear_keys                                        .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+clear_macro_mods                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+clear_mods                                        .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+clear_oneshot_layer_state                         .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+clear_oneshot_locked_mods                         .build/obj_numpad_rev4_basic/common/action_util.o
+clear_oneshot_mods                                .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+clear_weak_mods                                   .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+debug_action                                      .build/obj_numpad_rev4_basic/common/action.o
+debug_config                                      .build/obj_numpad_rev4_basic/common/debug.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+debug_event                                       .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+debug_record                                      .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+default_layer_and                                 .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+default_layer_debug                               .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+default_layer_or                                  .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+default_layer_set                                 .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+default_layer_state                               .build/obj_numpad_rev4_basic/common/action_layer.o
+default_layer_xor                                 .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+del_key                                           .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+del_macro_mods                                    .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_macro.o
+del_mods                                          .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+del_weak_mods                                     .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+eeconfig_disable                                  .build/obj_numpad_rev4_basic/common/eeconfig.o
+eeconfig_enable                                   .build/obj_numpad_rev4_basic/common/eeconfig.o
+eeconfig_init                                     .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+eeconfig_is_enabled                               .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+eeconfig_read_debug                               .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+eeconfig_read_default_layer                       .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+eeconfig_read_keymap                              .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+eeconfig_update_debug                             .build/obj_numpad_rev4_basic/common/eeconfig.o
+eeconfig_update_default_layer                     .build/obj_numpad_rev4_basic/common/eeconfig.o
+eeconfig_update_keymap                            .build/obj_numpad_rev4_basic/common/eeconfig.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+exit                                              /usr/lib/gcc/avr/4.8.2/avr5/libgcc.a(_exit.o)
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+fn_actions                                        .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+get_first_key                                     .build/obj_numpad_rev4_basic/common/action_util.o
+get_macro_mods                                    .build/obj_numpad_rev4_basic/common/action_util.o
+get_mods                                          .build/obj_numpad_rev4_basic/common/action_util.o
+get_oneshot_layer                                 .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+get_oneshot_layer_state                           .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+get_oneshot_locked_mods                           .build/obj_numpad_rev4_basic/common/action_util.o
+get_oneshot_mods                                  .build/obj_numpad_rev4_basic/common/action_util.o
+get_weak_mods                                     .build/obj_numpad_rev4_basic/common/action_util.o
+has_anykey                                        .build/obj_numpad_rev4_basic/common/action_util.o
+has_anymod                                        .build/obj_numpad_rev4_basic/common/action_util.o
+host_consumer_send                                .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+host_get_driver                                   .build/obj_numpad_rev4_basic/common/host.o
+host_keyboard_leds                                .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+host_keyboard_send                                .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+host_last_consumer_report                         .build/obj_numpad_rev4_basic/common/host.o
+host_last_system_report                           .build/obj_numpad_rev4_basic/common/host.o
+host_mouse_send                                   .build/obj_numpad_rev4_basic/common/host.o
+host_set_driver                                   .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+host_system_send                                  .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+is_oneshot_layer_active                           .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+is_tap_key                                        .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+keyboard_idle                                     .build/obj_numpad_rev4_basic/lufa.o
+keyboard_init                                     .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+keyboard_nkro                                     .build/obj_numpad_rev4_basic/common/host.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+keyboard_protocol                                 .build/obj_numpad_rev4_basic/lufa.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+keyboard_report                                   .build/obj_numpad_rev4_basic/common/action_util.o
+keyboard_set_leds                                 .build/obj_numpad_rev4_basic/common/keyboard.o
+keyboard_setup                                    .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+keyboard_task                                     .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+keycode_config                                    .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+                                                  .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+keymap_config                                     .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/quantum/keycode_config.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+keymap_key_to_keycode                             .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+keymaps                                           .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+                                                  .build/obj_numpad_rev4_basic/quantum/keymap_common.o
+layer_and                                         .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_clear                                       .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_debug                                       .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_invert                                      .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_move                                        .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_off                                         .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+                                                  .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+layer_on                                          .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+                                                  .build/obj_numpad_rev4_basic/keyboards/numpad/keymaps/basic/keymap.o
+layer_or                                          .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_state                                       .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+layer_switch_get_action                           .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+layer_switch_get_layer                            .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+layer_xor                                         .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+leader_end                                        .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+leader_sequence                                   .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+leader_sequence_size                              .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+leader_start                                      .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+leader_time                                       .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+leading                                           .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+led_init_ports                                    .build/obj_numpad_rev4_basic/quantum/quantum.o
+led_set                                           .build/obj_numpad_rev4_basic/quantum/quantum.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+led_set_kb                                        .build/obj_numpad_rev4_basic/quantum/quantum.o
+led_set_user                                      .build/obj_numpad_rev4_basic/quantum/quantum.o
+lufa_driver                                       .build/obj_numpad_rev4_basic/lufa.o
+magic                                             .build/obj_numpad_rev4_basic/common/magic.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+main                                              .build/obj_numpad_rev4_basic/lufa.o
+                                                  /usr/lib/gcc/avr/4.8.2/../../../avr/lib/avr5/crtm32u4.o
+matrix_cols                                       .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_get_row                                    .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+matrix_init                                       .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+matrix_init_kb                                    .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+matrix_init_quantum                               .build/obj_numpad_rev4_basic/quantum/quantum.o
+matrix_init_user                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/keyboards/numpad/numpad.o
+matrix_is_modified                                .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_is_on                                      .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_key_count                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_power_down                                 .build/obj_numpad_rev4_basic/common/avr/suspend.o
+matrix_power_up                                   .build/obj_numpad_rev4_basic/common/avr/suspend.o
+matrix_print                                      .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+matrix_rows                                       .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_scan                                       .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+matrix_scan_kb                                    .build/obj_numpad_rev4_basic/quantum/matrix.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+matrix_scan_quantum                               .build/obj_numpad_rev4_basic/quantum/quantum.o
+matrix_scan_user                                  .build/obj_numpad_rev4_basic/quantum/matrix.o
+matrix_setup                                      .build/obj_numpad_rev4_basic/common/keyboard.o
+process_action                                    .build/obj_numpad_rev4_basic/common/action.o
+process_action_kb                                 .build/obj_numpad_rev4_basic/quantum/quantum.o
+process_leader                                    .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+process_record                                    .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_tapping.o
+process_record_kb                                 .build/obj_numpad_rev4_basic/quantum/quantum.o
+process_record_nocache                            .build/obj_numpad_rev4_basic/common/action.o
+process_record_quantum                            .build/obj_numpad_rev4_basic/quantum/quantum.o
+process_record_user                               .build/obj_numpad_rev4_basic/quantum/quantum.o
+register_code                                     .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_macro.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+register_mods                                     .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+reset_key                                         .build/obj_numpad_rev4_basic/common/avr/bootloader.o
+reset_keyboard                                    .build/obj_numpad_rev4_basic/quantum/quantum.o
+reset_oneshot_layer                               .build/obj_numpad_rev4_basic/common/action_util.o
+send_keyboard_report                              .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action_macro.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+send_string                                       .build/obj_numpad_rev4_basic/quantum/quantum.o
+sendchar                                          .build/obj_numpad_rev4_basic/lufa.o
+set_macro_mods                                    .build/obj_numpad_rev4_basic/common/action_util.o
+set_mods                                          .build/obj_numpad_rev4_basic/common/action_util.o
+set_oneshot_layer                                 .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+set_oneshot_locked_mods                           .build/obj_numpad_rev4_basic/common/action_util.o
+set_oneshot_mods                                  .build/obj_numpad_rev4_basic/common/action_util.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+set_weak_mods                                     .build/obj_numpad_rev4_basic/common/action_util.o
+shutdown_user                                     .build/obj_numpad_rev4_basic/quantum/quantum.o
+startup_user                                      .build/obj_numpad_rev4_basic/quantum/quantum.o
+store_or_get_action                               .build/obj_numpad_rev4_basic/common/action_layer.o
+                                                  .build/obj_numpad_rev4_basic/common/action.o
+suspend_idle                                      .build/obj_numpad_rev4_basic/common/avr/suspend.o
+suspend_power_down                                .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+suspend_wakeup_condition                          .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+suspend_wakeup_init                               .build/obj_numpad_rev4_basic/common/avr/suspend.o
+                                                  .build/obj_numpad_rev4_basic/lufa.o
+tap_random_base64                                 .build/obj_numpad_rev4_basic/quantum/quantum.o
+timer_clear                                       .build/obj_numpad_rev4_basic/common/avr/timer.o
+timer_count                                       .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  .build/obj_numpad_rev4_basic/common/avr/suspend.o
+timer_elapsed                                     .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+timer_elapsed32                                   .build/obj_numpad_rev4_basic/common/avr/timer.o
+timer_init                                        .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+timer_read                                        .build/obj_numpad_rev4_basic/common/avr/timer.o
+                                                  .build/obj_numpad_rev4_basic/common/keyboard.o
+                                                  .build/obj_numpad_rev4_basic/quantum/process_keycode/process_leader.o
+timer_read32                                      .build/obj_numpad_rev4_basic/common/avr/timer.o
+unregister_code                                   .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/common/action_macro.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+unregister_mods                                   .build/obj_numpad_rev4_basic/common/action.o
+                                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+update_tri_layer                                  .build/obj_numpad_rev4_basic/quantum/quantum.o
+xfunc_out                                         .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+xitoa                                             .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+xputc                                             .build/obj_numpad_rev4_basic/common/avr/xprintf.o
+xputs                                             .build/obj_numpad_rev4_basic/common/avr/xprintf.o

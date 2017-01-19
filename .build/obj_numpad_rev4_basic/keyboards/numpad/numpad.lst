@@ -1,0 +1,49 @@
+   1               		.file	"numpad.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               		.section	.text.matrix_init_kb,"ax",@progbits
+  11               	.global	matrix_init_kb
+  13               	matrix_init_kb:
+  14               	.LFB103:
+  15               		.file 1 "../../keyboards/numpad/numpad.c"
+   1:../../keyboards/numpad/numpad.c **** #include "numpad.h"
+   2:../../keyboards/numpad/numpad.c **** 
+   3:../../keyboards/numpad/numpad.c **** void matrix_init_kb(void) {
+  16               		.loc 1 3 0
+  17               		.cfi_startproc
+  18               	/* prologue: function */
+  19               	/* frame size = 0 */
+  20               	/* stack size = 0 */
+  21               	.L__stack_usage = 0
+   4:../../keyboards/numpad/numpad.c **** 	// Turn status LED on
+   5:../../keyboards/numpad/numpad.c **** 	// DDRE |= (1<<6);
+   6:../../keyboards/numpad/numpad.c **** 	// PORTE |= (1<<6);
+   7:../../keyboards/numpad/numpad.c **** 
+   8:../../keyboards/numpad/numpad.c **** 	matrix_init_user();
+  22               		.loc 1 8 0
+  23 0000 0C94 0000 		jmp matrix_init_user
+  24               	.LVL0:
+  25               		.cfi_endproc
+  26               	.LFE103:
+  28               		.text
+  29               	.Letext0:
+  30               		.file 2 "/usr/lib/avr/include/stdint.h"
+  31               		.file 3 "../../tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.h"
+  32               		.file 4 "../../quantum/quantum.h"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 numpad.c
+     /tmp/ccssTWIE.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccssTWIE.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccssTWIE.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccssTWIE.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccssTWIE.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccssTWIE.s:13     .text.matrix_init_kb:0000000000000000 matrix_init_kb
+
+UNDEFINED SYMBOLS
+matrix_init_user

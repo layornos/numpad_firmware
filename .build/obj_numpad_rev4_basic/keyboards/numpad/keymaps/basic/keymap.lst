@@ -1,0 +1,178 @@
+   1               		.file	"keymap.c"
+   2               	__SP_H__ = 0x3e
+   3               	__SP_L__ = 0x3d
+   4               	__SREG__ = 0x3f
+   5               	__tmp_reg__ = 0
+   6               	__zero_reg__ = 1
+   7               		.text
+   8               	.Ltext0:
+   9               		.cfi_sections	.debug_frame
+  10               		.section	.text.action_get_macro,"ax",@progbits
+  11               	.global	action_get_macro
+  13               	action_get_macro:
+  14               	.LFB103:
+  15               		.file 1 "../../keyboards/numpad/keymaps/basic/keymap.c"
+   1:../../keyboards/numpad/keymaps/basic/keymap.c **** #include "numpad.h"
+   2:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+   3:../../keyboards/numpad/keymaps/basic/keymap.c **** // Each layer gets a name for readability, which is then used in the keymap matrix below.
+   4:../../keyboards/numpad/keymaps/basic/keymap.c **** // The underscores don't mean anything - you can have a layer called STUFF or any other name.
+   5:../../keyboards/numpad/keymaps/basic/keymap.c **** // Layer names don't all need to be of the same length, obviously, and you can also skip them
+   6:../../keyboards/numpad/keymaps/basic/keymap.c **** // entirely and just use numbers.
+   7:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+   8:../../keyboards/numpad/keymaps/basic/keymap.c **** // Fillers to make layering more clear
+   9:../../keyboards/numpad/keymaps/basic/keymap.c **** #define _______ KC_TRNS
+  10:../../keyboards/numpad/keymaps/basic/keymap.c **** #define XXXXXXX KC_NO
+  11:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  12:../../keyboards/numpad/keymaps/basic/keymap.c **** const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  13:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  14:../../keyboards/numpad/keymaps/basic/keymap.c **** /* Qwerty
+  15:../../keyboards/numpad/keymaps/basic/keymap.c ****  * ,---------------------------.
+  16:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |  ESC |   =  |   /  |   *  |
+  17:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |------+------+------+------+
+  18:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |   7  |   8  |   9  |   -  |
+  19:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |------+------+------+------+
+  20:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |   4  |   5  |   6  |   +  |
+  21:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |------+------+------+------+
+  22:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |   1  |   2  |   3  |      |
+  23:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |------+------+------+ENTER +
+  24:../../keyboards/numpad/keymaps/basic/keymap.c ****  * |      0      |   ,  |      |
+  25:../../keyboards/numpad/keymaps/basic/keymap.c ****  * `---------------------------*
+  26:../../keyboards/numpad/keymaps/basic/keymap.c ****  */
+  27:../../keyboards/numpad/keymaps/basic/keymap.c **** [0] = {
+  28:../../keyboards/numpad/keymaps/basic/keymap.c ****   {KC_ESC, KC_PSLS, KC_PAST, KC_PMNS },
+  29:../../keyboards/numpad/keymaps/basic/keymap.c ****   {KC_7,  KC_8,  KC_9,      KC_PPLS },
+  30:../../keyboards/numpad/keymaps/basic/keymap.c ****   {KC_4,  KC_5,  KC_6               },
+  31:../../keyboards/numpad/keymaps/basic/keymap.c ****   {KC_1,  KC_2,  KC_3,      KC_PENT },
+  32:../../keyboards/numpad/keymaps/basic/keymap.c ****   {KC_0,  KC_0,  KC_DOT                    }
+  33:../../keyboards/numpad/keymaps/basic/keymap.c **** },
+  34:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  35:../../keyboards/numpad/keymaps/basic/keymap.c **** };
+  36:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  37:../../keyboards/numpad/keymaps/basic/keymap.c **** const uint16_t PROGMEM fn_actions[] = {
+  38:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  39:../../keyboards/numpad/keymaps/basic/keymap.c **** };
+  40:../../keyboards/numpad/keymaps/basic/keymap.c **** 
+  41:../../keyboards/numpad/keymaps/basic/keymap.c **** const macro_t *action_get_macro(keyrecord_t *record, uint8_t id, uint8_t opt)
+  42:../../keyboards/numpad/keymaps/basic/keymap.c **** {
+  16               		.loc 1 42 0
+  17               		.cfi_startproc
+  18               	.LVL0:
+  19               	/* prologue: function */
+  20               	/* frame size = 0 */
+  21               	/* stack size = 0 */
+  22               	.L__stack_usage = 0
+  43:../../keyboards/numpad/keymaps/basic/keymap.c ****   switch(id) {
+  23               		.loc 1 43 0
+  24 0000 6130      		cpi r22,lo8(1)
+  25 0002 01F0      		breq .L3
+  26 0004 6230      		cpi r22,lo8(2)
+  27 0006 01F0      		breq .L4
+  28 0008 00C0      		rjmp .L2
+  29               	.L3:
+  44:../../keyboards/numpad/keymaps/basic/keymap.c ****     case 1:
+  45:../../keyboards/numpad/keymaps/basic/keymap.c ****       if (record->event.pressed) {
+  30               		.loc 1 45 0
+  31 000a FC01      		movw r30,r24
+  32 000c 8281      		ldd r24,Z+2
+  33               	.LVL1:
+  34 000e 8823      		tst r24
+  35 0010 01F0      		breq .L5
+  46:../../keyboards/numpad/keymaps/basic/keymap.c ****         layer_on(1);
+  36               		.loc 1 46 0
+  37 0012 81E0      		ldi r24,lo8(1)
+  38 0014 00C0      		rjmp .L8
+  39               	.L5:
+  47:../../keyboards/numpad/keymaps/basic/keymap.c ****       } else {
+  48:../../keyboards/numpad/keymaps/basic/keymap.c ****         layer_off(1);
+  40               		.loc 1 48 0
+  41 0016 81E0      		ldi r24,lo8(1)
+  42 0018 00C0      		rjmp .L7
+  43               	.LVL2:
+  44               	.L4:
+  49:../../keyboards/numpad/keymaps/basic/keymap.c ****       }
+  50:../../keyboards/numpad/keymaps/basic/keymap.c ****       break;
+  51:../../keyboards/numpad/keymaps/basic/keymap.c ****     case 2:
+  52:../../keyboards/numpad/keymaps/basic/keymap.c ****       if (record->event.pressed) {
+  45               		.loc 1 52 0
+  46 001a FC01      		movw r30,r24
+  47 001c 8281      		ldd r24,Z+2
+  48               	.LVL3:
+  49 001e 8823      		tst r24
+  50 0020 01F0      		breq .L6
+  53:../../keyboards/numpad/keymaps/basic/keymap.c ****         layer_on(2);
+  51               		.loc 1 53 0
+  52 0022 82E0      		ldi r24,lo8(2)
+  53               	.L8:
+  54 0024 0E94 0000 		call layer_on
+  55               	.LVL4:
+  56 0028 00C0      		rjmp .L2
+  57               	.LVL5:
+  58               	.L6:
+  54:../../keyboards/numpad/keymaps/basic/keymap.c ****       } else {
+  55:../../keyboards/numpad/keymaps/basic/keymap.c ****         layer_off(2);
+  59               		.loc 1 55 0
+  60 002a 82E0      		ldi r24,lo8(2)
+  61               	.L7:
+  62 002c 0E94 0000 		call layer_off
+  63               	.LVL6:
+  64               	.L2:
+  56:../../keyboards/numpad/keymaps/basic/keymap.c ****       }
+  57:../../keyboards/numpad/keymaps/basic/keymap.c ****       break;
+  58:../../keyboards/numpad/keymaps/basic/keymap.c ****   }
+  59:../../keyboards/numpad/keymaps/basic/keymap.c ****   return MACRO_NONE;
+  60:../../keyboards/numpad/keymaps/basic/keymap.c **** };
+  65               		.loc 1 60 0
+  66 0030 80E0      		ldi r24,0
+  67 0032 90E0      		ldi r25,0
+  68 0034 0895      		ret
+  69               		.cfi_endproc
+  70               	.LFE103:
+  72               	.global	fn_actions
+  73               		.section	.progmem.data.fn_actions,"a",@progbits
+  76               	fn_actions:
+  77               	.global	keymaps
+  78               		.section	.progmem.data.keymaps,"a",@progbits
+  81               	keymaps:
+  82 0000 2900      		.word	41
+  83 0002 5400      		.word	84
+  84 0004 5500      		.word	85
+  85 0006 5600      		.word	86
+  86 0008 2400      		.word	36
+  87 000a 2500      		.word	37
+  88 000c 2600      		.word	38
+  89 000e 5700      		.word	87
+  90 0010 2100      		.word	33
+  91 0012 2200      		.word	34
+  92 0014 2300      		.word	35
+  93 0016 0000      		.zero	2
+  94 0018 1E00      		.word	30
+  95 001a 1F00      		.word	31
+  96 001c 2000      		.word	32
+  97 001e 5800      		.word	88
+  98 0020 2700      		.word	39
+  99 0022 2700      		.word	39
+ 100 0024 3700      		.word	55
+ 101 0026 0000      		.zero	2
+ 102               		.text
+ 103               	.Letext0:
+ 104               		.file 2 "/usr/lib/avr/include/stdint.h"
+ 105               		.file 3 "../../tmk_core/common/keyboard.h"
+ 106               		.file 4 "../../tmk_core/common/action_macro.h"
+ 107               		.file 5 "../../tmk_core/common/action.h"
+ 108               		.file 6 "../../tmk_core/protocol/lufa/LUFA-git/LUFA/Drivers/USB/Core/USBTask.h"
+ 109               		.file 7 "../../tmk_core/common/keycode.h"
+ 110               		.file 8 "../../tmk_core/common/action_layer.h"
+DEFINED SYMBOLS
+                            *ABS*:0000000000000000 keymap.c
+     /tmp/ccypG5lT.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccypG5lT.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccypG5lT.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccypG5lT.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccypG5lT.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccypG5lT.s:13     .text.action_get_macro:0000000000000000 action_get_macro
+     /tmp/ccypG5lT.s:76     .progmem.data.fn_actions:0000000000000000 fn_actions
+     /tmp/ccypG5lT.s:81     .progmem.data.keymaps:0000000000000000 keymaps
+
+UNDEFINED SYMBOLS
+layer_on
+layer_off
